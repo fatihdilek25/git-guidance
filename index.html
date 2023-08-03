@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css"
+      integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+ 
+  <body class="bg-dark text-bg-dark">
+    <!-- header -->
+    <header class="navbar navbar-dark mb-3 pt-3">
+      <div class="container">
+        <a href="#" id="logo" class="navbar-brand fw-bold">Github Bulucu</a>
+        <button id="mod-btn" class="rounded-2 p-2">Açık Mod</button>
+      </div>
+    </header>
+    <!-- header -->
+    <!-- form kısmı -->
+    <div class="container mt-5">
+      <div id="alert-area"></div>
+      <div class="border p-3">
+        <h1>Github KullanıcıAdıyla Ara</h1>
+        <p>
+          Kullanıcı bilgilerine erişmek için geçerli bir kullanıcı adı giriniz.
+        </p>
+        <div class="d-flex gap-3">
+          <input id="search-input" class="form-control" type="text" />
+          <button id="search-btn" class="btn btn-primary btn-lg">Ara</button>
+        </div>
+      </div>
+    </div>
+    <!-- form kısmı -->
+
+    <!-- kullanucı bilgileri -->
+    <div id='profile' class="container p-4"></div>
+    </div>
+    <!-- kullanucı bilgileri -->
+
+    <!-- kullanıcı bilgileri -->
+    <div id="repos" class="container p3"></div>
+
+    <!-- kullanıcı bilgileri -->
+
+    <!-- js bağlantısı -->
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
